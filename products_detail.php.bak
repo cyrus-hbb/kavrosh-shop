@@ -1,0 +1,19 @@
+<?php
+$link =
+if (...
+exit("Cwl oals ) xj cui l usubs :"..
+...;
+$pro_code=0; If (isset($_GET['id'])) Spro_code=$_GET['id']; $query = "SELECT * FROM products WHERE pro_code='Spro_code":| $result = mysql_query($link, $query);
+<table style="width: 100%;" border="1px" >
+<tr> <?php
+if ($row = mysqli_fetch_array($result)) {
+?>
+<td style="border-style: dotted dashed;vertical-align: top;width: 33%;"> <h4 style="color: brown;"><?php echo ($row['pro_name']) ?></h4> <img src="images/products/<?php echo ($row['pro_image']) ?>" /> <br> cias : <?php echo ($row['pro_price']) ?>&nbsp; JL) <br/> $39700 . : <span style="color:red;"><?php echo ($row['pro_qty']) ?></span> <br/>
+bawb : <span style="color:green;"><?php echo ($row['pro_detail']); ?></span> <br/><br/> <b> <a href="order.php?id=<?php echo ($row['pro_code']) ?>" style="text-decoration: none;">
+سفارش و خرید پستی
+</a>
+</b>
+</td> <?php
+?>
+</tr> </table>
+<?php include ("includes/footer.php");
